@@ -105,22 +105,22 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 3,
       "id": "450d6dd7",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 657
+          "height": 640
         },
         "id": "450d6dd7",
-        "outputId": "31b86331-e536-4f1d-d594-4a9c109c5c8a"
+        "outputId": "17309a8e-442f-4e76-d466-454038d368ca",
+        "collapsed": true
       },
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "'car_purchase_data.csv' not found. Generating a synthetic dataset so you can run your code...\n",
             "First five rows of the dataset:\n"
           ]
         },
@@ -137,7 +137,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-f8a65c0c-19ed-4756-b780-e7fb545fe74d\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-73a5952c-3200-404b-9787-1bb881a6f20a\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -198,7 +198,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f8a65c0c-19ed-4756-b780-e7fb545fe74d')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-73a5952c-3200-404b-9787-1bb881a6f20a')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -250,12 +250,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-f8a65c0c-19ed-4756-b780-e7fb545fe74d button.colab-df-convert');\n",
+              "        document.querySelector('#df-73a5952c-3200-404b-9787-1bb881a6f20a button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-f8a65c0c-19ed-4756-b780-e7fb545fe74d');\n",
+              "        const element = document.querySelector('#df-73a5952c-3200-404b-9787-1bb881a6f20a');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -380,7 +380,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 4,
       "id": "eec98684",
       "metadata": {
         "colab": {
@@ -388,7 +388,8 @@
           "height": 482
         },
         "id": "eec98684",
-        "outputId": "41b3087e-2ed3-47b1-b99b-bccfc1ac24e3"
+        "outputId": "3ee52461-f779-4342-8593-13adf23b2a70",
+        "collapsed": true
       },
       "outputs": [
         {
@@ -411,7 +412,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-c7bbf1f6-b479-4399-b283-219de25e7c24\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-f6e2dcdf-dbe8-43fd-8193-c3ddf3251f61\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -466,7 +467,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-c7bbf1f6-b479-4399-b283-219de25e7c24')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f6e2dcdf-dbe8-43fd-8193-c3ddf3251f61')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -518,12 +519,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-c7bbf1f6-b479-4399-b283-219de25e7c24 button.colab-df-convert');\n",
+              "        document.querySelector('#df-f6e2dcdf-dbe8-43fd-8193-c3ddf3251f61 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-c7bbf1f6-b479-4399-b283-219de25e7c24');\n",
+              "        const element = document.querySelector('#df-f6e2dcdf-dbe8-43fd-8193-c3ddf3251f61');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -650,7 +651,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 5,
       "id": "17d61710",
       "metadata": {
         "id": "17d61710"
@@ -680,14 +681,15 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 6,
       "id": "827f7cbb",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "827f7cbb",
-        "outputId": "7e5e1e85-eb64-46ed-e6eb-689d4a4d6720"
+        "outputId": "2aed60de-065f-4fb2-b1c3-7a63bffff98c",
+        "collapsed": true
       },
       "outputs": [
         {
@@ -742,14 +744,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 7,
       "id": "7938227d",
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "7938227d",
-        "outputId": "80043ee0-6304-4a16-bb71-a8eabe817479"
+        "outputId": "3575f494-0918-44b9-e750-d731e74b3292"
       },
       "outputs": [
         {
@@ -793,7 +795,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 8,
       "id": "eb4b8065",
       "metadata": {
         "colab": {
@@ -801,7 +803,8 @@
           "height": 675
         },
         "id": "eb4b8065",
-        "outputId": "285f9cb2-87b7-4210-b307-db42f2dc6931"
+        "outputId": "9a7c2803-919d-417d-bd0f-11099baab021",
+        "collapsed": true
       },
       "outputs": [
         {
@@ -846,7 +849,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-cd17a527-2b3e-4baf-a3e6-444d3618ada2\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-7df3f4c2-076d-4ef6-9c92-6ad9b36fae72\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -959,7 +962,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-cd17a527-2b3e-4baf-a3e6-444d3618ada2')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-7df3f4c2-076d-4ef6-9c92-6ad9b36fae72')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1011,12 +1014,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-cd17a527-2b3e-4baf-a3e6-444d3618ada2 button.colab-df-convert');\n",
+              "        document.querySelector('#df-7df3f4c2-076d-4ef6-9c92-6ad9b36fae72 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-cd17a527-2b3e-4baf-a3e6-444d3618ada2');\n",
+              "        const element = document.querySelector('#df-7df3f4c2-076d-4ef6-9c92-6ad9b36fae72');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1095,7 +1098,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 9,
       "id": "7bd77697",
       "metadata": {
         "colab": {
@@ -1103,7 +1106,7 @@
           "height": 642
         },
         "id": "7bd77697",
-        "outputId": "46f3709f-3fa5-40dd-b466-66e3429d4414"
+        "outputId": "5ff68690-7ac7-47db-cba8-aa73dda3a4dd"
       },
       "outputs": [
         {
